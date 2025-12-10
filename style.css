@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Amagro';
+    src: url('./assets/fonts/webfonts/Amagro-bold.woff2') format('woff2'),
+        url('./assets/fonts/webfonts/Amagro-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Amagro', serif;
+    color:red;
+}
