@@ -83,21 +83,24 @@ a {
 .rightContainer {
     width:60%;
     font-size:1em;
-    padding:2em;
     font-family:serif;
     font-weight: 550;
 }
 
 .sectors {
+    padding:2em;
     display:flex;
     flex-direction: row;
     font-size:1.2vw;
-    margin-bottom:5em;
     position: relative;
     
 }
-.sectors p {
-    margin:0.8em;
+
+.rightContainer p {
+    padding:1em;
+    border:0%;
+    margin:0%;
+    box-sizing: content-box;
 }
 
 .silly {
@@ -116,7 +119,17 @@ a {
 }
 
 .signupContainer {
-    box-shadow: #000000;
-    height: 2vw;
+    box-shadow: 0em .2em 1em#000000a2;
+    height:40vh;
+    width:100%;
+    padding:1em;
+    margin-top:2em;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+}
+.signupContainer input {
+    margin:1em;
+    width: 15vw;
 }
 
