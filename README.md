@@ -14,4 +14,5 @@
 ### Log 3
 
 * Remembered how flex box works in my sleep
+* Looking into using CSS shapes to create a cool text effect
 * 

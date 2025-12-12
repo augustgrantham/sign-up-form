@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: 'Amagro', serif;
+    font-family: serif;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -35,15 +35,40 @@ body {
     display:flex;
     flex-direction: row;
     align-items: center;
+    flex-shrink: none;
 }
 
 .bannerFooter {
     font-size:small;
-    margin-top: 90%;
+    margin-top: 45vh;
     text-decoration: none;
     font-family: serif;
     display: flex;
     flex-direction: row;
+    font-size: 1vw;
+}
+
+.banner {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    font-size: 1.6vw;
+    margin:0%;
+    font-family: 'Amagro', serif;
+
+}
+
+.bannerContainer {
+    background-color: rgba(0, 0, 0, 0.307);
+    width:100%;
+    height: 6vw;
+    margin-bottom:40%;  
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0.5vw;
+
 }
 
 a {
@@ -56,26 +81,42 @@ a {
     filter: brightness(100%)
 }
 .rightContainer {
-    display:flex;
-    flex-direction: column;
+    width:60%;
+    font-size:1em;
     padding:2em;
+    font-family:serif;
+    font-weight: 550;
 }
 
-.bannerContainer {
-    background-color: rgba(0, 0, 0, 0.307);
-    width:100%;
-    height: 11%;
-    margin-bottom:40%;  
-    color:white;
+.sectors {
     display:flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    font-size:1.2vw;
+    margin-bottom:5em;
+    position: relative;
+    
+}
+.sectors p {
+    margin:0.8em;
+}
 
-}
-.banner {
-    display:flex;
-    flex-direction:row;
+.silly {
+    margin-top:0;
+    background:linear-gradient(to bottom, #538e00, #05455f);
+    background-clip:text;
+    color:transparent;
+    font-weight: 900;
+    text-decoration:underline;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    font-size: 1.8em;
-    margin:0%;
+    border: 0px solid #000000;
+    border-bottom-width: 1.5px;
 }
+
+.signupContainer {
+    box-shadow: #000000;
+    height: 2vw;
+}
+
