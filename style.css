@@ -7,34 +7,75 @@
     font-display: swap;
 }
 
-* {
-    margin:0;
-    padding:0;
-    outline: solid 1px red;
-}
+
 body {
     font-family: 'Amagro', serif;
     display:flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
     box-sizing:border-box;
     background-color: #132701;
+    margin:0%
 }
 .formContainer {
+    margin:0%;
     height: 100vh;
-    width:95vw;
+    width:70vw;
     display:flex;
     flex-direction: row;
     /*background-color:#f6eec1;*/
+    background-color: #e7e7e7;
+    border:0%;
 }
 .leftContainer {
     background-image: url('./assets/photos/door.jpg');
     background-size: cover;
     background-position: center;
-    padding:1em;
     width: 40%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bannerFooter {
+    font-size:small;
+    margin-top: 90%;
+    text-decoration: none;
+    font-family: serif;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color:white;
+}
+
+.logo {
+    width:3.5em;
+    height: 3.5em;;
+    filter: brightness(100%)
 }
 .rightContainer {
-    
+    display:flex;
+    flex-direction: column;
+    padding:2em;
+}
+
+.bannerContainer {
+    background-color: rgba(0, 0, 0, 0.307);
+    width:100%;
+    height: 11%;
+    margin-bottom:40%;  
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.banner {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    font-size: 1.8em;
+    margin:0%;
 }

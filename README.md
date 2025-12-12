@@ -10,4 +10,8 @@
 ### Log 2
 
 * Chose a tophat logo image, I think I'm going to make the form a referance to the Monty Python Silly Walk Skit.
+
+### Log 3
+
+* Remembered how flex box works in my sleep
 * 
