@@ -68,7 +68,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding:0.5vw;
-
+    box-sizing: content-box;
 }
 
 a {
@@ -99,7 +99,7 @@ a {
 .rightContainer p {
     padding:1em;
     border:0%;
-    margin:0%;
+    margin:0;
     box-sizing: content-box;
 }
 
@@ -126,10 +126,30 @@ a {
     margin-top:2em;
     box-sizing: border-box;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    flex-wrap: wrap;
 }
 .signupContainer input {
-    margin:1em;
+    margin-top:1em;
     width: 15vw;
 }
 
+form {
+    display:flex;
+    flex-direction:column;
+    align-items: start;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+legend {
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding:0%;
+}
+
+label {
+    font-size:0.8em;
+    font-weight: 300;
+    margin-top:.5em;
+}
