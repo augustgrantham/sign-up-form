@@ -175,7 +175,7 @@ label {
     margin:2em;
 }
 
-input[type="button"] {
+input[type="submit"] {
     background: #538e00;
     color:white;
     border-radius:10%;
@@ -197,9 +197,14 @@ input[type="button"] {
 }
 
 input:invalid {
-    border:red;
+    border:red 1px solid;
 }
 
-input:focus{
-    border:purple;
+input[type="text"]:focus {
+    outline:purple 2px solid;
+    outline-style:dashed;
+}
+
+input[type="email"]:invalid {
+    border:red 1px solid;
 }

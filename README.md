@@ -15,4 +15,8 @@
 
 * Remembered how flex box works in my sleep
 * Looking into using CSS shapes to create a cool text effect
-* 
+
+### Log 4
+
+* Lots of progress!
+* Have the layout done, working on styling inputs based on conditions and validating inputs

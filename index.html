@@ -29,7 +29,7 @@
                 <p>Health</p>
                 <p>Housing </p>
                 <p>Education</p>
-                <p class="silly">Silly walks</p>
+                <p class="silly">Silly Walks</p>
             </div>
             
             <p>All of these are vital government sectors, but because of social biases, they are not all treated the same.</p>
@@ -43,25 +43,25 @@
                         
                         <fieldset>
                             <label for="firstName">First Name:</label>
-                            <input type="text" name="firstName" id="firstName">
+                            <input type="text" name="firstName" id="firstName" required>
                             <label for="email">Email:</label>
-                            <input type="text" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                             <label for="password">Password:</label>
-                            <input type="text" name="password" id="password" required>
+                            <input type="text" name="password" id="password"  required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
                         </fieldset>
                         <fieldset>
-                            <label for="firstName">Last Name:</label>
-                            <input type="text" name="lastName" id="lastName">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="lastName" id="lastName" required>
                             <label for="phone">Phone Number:</label>
-                            <input type="tel" name="phone" id="phone">
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                             <label for="passwordConfirm">Confirm Password:</label>
-                            <input type="text" name="passwordConfirm" id="passwordConfirm" required>
+                            <input type="text" name="passwordConfirm" id="passwordConfirm" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
                         </fieldset>
                     </div>
                 </form>
             </div>
             <div class="submitContainer">
-                <input type="button" name="submit" id="submut" value="Submit">
+                <input type="submit" name="submit" id="submut" value="Submit">
                 <p>Already registered your dance? <a>Log In.</a></p>
             </div>
         </div>
