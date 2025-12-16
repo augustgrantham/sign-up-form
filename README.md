@@ -1,5 +1,6 @@
 # sign-up-form
 
+See it live here: https://augustgrantham.github.io/sign-up-form/
 ## **Project Log**
 
 ### Log 1
